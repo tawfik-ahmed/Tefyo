@@ -549,7 +549,15 @@ body {
 }
 
 .popup-box img {
-    max-width: 100%;
+    height: 500px;
+    width: 500px;
+}
+
+@media (max-width: 767px) {
+    .popup-box img {
+        height: 250px;
+        width: 250px;
+    }
 }
 
 /* End Gallery */
